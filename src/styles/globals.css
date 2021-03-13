@@ -1,0 +1,46 @@
+@import url('./variables.css');
+
+@font-face {
+  font-family: 'Jura Sans';
+  src: url('./fonts/Jura-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: 'Josefin Sans';
+  src: url('./fonts/JosefinSans-VariableFont_wght.ttf');
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-size: 62.5%;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+body, button {
+  font-family: 'Jura Sans';
+}
+
+h1,h2,h3,h4 {
+  font-family: 'Josefin Sans';
+  font-size: 40px;
+}
