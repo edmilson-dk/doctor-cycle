@@ -38,7 +38,11 @@ const globalStyles = createGlobalStyle`
     --title-primary: 2.4rem;
     --title-second: 2rem;
     --title-button: 1.8rem;
-    --ttile-third: 1.6rem;
+    --title-third: 1.6rem;
+
+    --semi-bold: 600;
+    --medium: 500;
+    --bold: 700;
   }
 
   *,
@@ -72,6 +76,7 @@ const globalStyles = createGlobalStyle`
   input,
   textarea {
     font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
   }
 `;
 
