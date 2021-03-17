@@ -77,13 +77,13 @@ export const HeaderMenuItemContent = styled.div`
   & > strong {
     font-size: var(--sub-title);
     color: var(--white-primary);
-    font-weight: 600;
+    font-weight: var(--semi-bold);
   } 
 
   & > p {
     font-size: 1.4rem;
     color: var(--white-primary);
-    font-weight: 500;
+    font-weight: var(--medium);
     margin-top: 5px;
   }
 `;
