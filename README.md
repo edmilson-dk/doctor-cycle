@@ -1,10 +1,10 @@
 # Doctor Cycle - Website
 
 <p align="center">
-  <img src="https://img.shields.io/static/v1?label=RuangKu&message=Welcome&color=FFFFFF&labelColor=00AACC" alt="PRs welcome!" />
+  <img src="https://img.shields.io/static/v1?label=Doctor-Cycle&message=Welcome&color=FFFFFF&labelColor=00AACC" alt="PRs welcome!" />
   <img alt="License" src="https://img.shields.io/static/v1?label=version&message=1.0&color=FFFFFF&labelColor=00AACC">
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=FFFFFF&labelColor=00AACC">
-  <img alt="Stars" src="https://img.shields.io/github/stars/edmilson-dk/doctor?color=FFFFFF&labelColor=00AACC">
+  <img alt="Stars" src="https://img.shields.io/github/stars/edmilson-dk/doctor-cycle?color=FFFFFF&labelColor=00AACC">
   <img alt="Languages" src="https://img.shields.io/github/languages/count/edmilson-dk/doctor-cycle?color=FFFFFF&labelColor=00AACC">
 </p>
 
@@ -24,7 +24,7 @@ All the layout and coding done by me.
 
 Preview the layout directly in figma.
 
-![Doctor Cycle](https://www.figma.com/file/8FRbY8jE8NIBYI7wAAw4MH/doctor-cycle)
+[Doctor Cycle](https://www.figma.com/file/8FRbY8jE8NIBYI7wAAw4MH/doctor-cycle)
 
 <a id="features"></a>
 ## 🚀 Functionalities
