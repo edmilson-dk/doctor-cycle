@@ -7,7 +7,7 @@ export const HeaderWrapper = styled.header`
 
 export const HeaderContainer = styled.article`
   width: 100%;
-  padding: var(--space-1);
+  padding: var(--space-1) 0;
 
   display: flex;
   justify-content: space-between;
@@ -32,7 +32,6 @@ export const HeaderMenu = styled.nav`
 export const HeaderMenuItem = styled.button`
   position: relative;
   width: 4rem;
-  cursor: pointer;
   padding: 5px;
   background-color: transparent;
 
@@ -67,12 +66,13 @@ export const HeaderMenuItemContent = styled.div`
   max-width: 180px;
   padding: 5px;
   
-  background-color: var(--green-second);
+  background-color: var(--blue-dark);
   border-radius: var(--border-radius);
  
   position: absolute;
   top: 110%;
   right: calc(50% - 1rem);
+  z-index: 9999;
 
   & > strong {
     font-size: var(--sub-title);
