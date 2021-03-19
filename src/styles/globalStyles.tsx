@@ -33,7 +33,7 @@ const globalStyles = createGlobalStyle`
     --space-5: 4rem;
 
     --text: 1.4rem;
-    --sub-title: 1.5rem;
+    --sub-title: 1.6rem;
     --title-main: 3rem;
     --title-primary: 2.4rem;
     --title-second: 2rem;
