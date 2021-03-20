@@ -9,7 +9,6 @@ export const BannerWrapper = styled.section`
 `;
 
 export const BannerContainer = styled.div`
-
   min-width: 100%;
   display: flex;
   justify-content: flex-start;
