@@ -71,6 +71,10 @@ const globalStyles = createGlobalStyle`
     display: block;
   }
 
+  p {
+    line-height: 1.4;
+  }
+
   body,
   button,
   input,
