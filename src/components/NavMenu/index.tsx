@@ -1,17 +1,18 @@
-import { useContext } from 'react';
-import { FiAlignCenter } from 'react-icons/fi'
-import { NavMenuContext } from 'src/contexts/NavMenuContext';
+import { useContext } from "react";
+import { FiAlignCenter } from "react-icons/fi"
 
-import Container from 'src/styles/components/Container';
+import { NavMenuContext } from "src/contexts/NavMenuContext";
+
+import Container from "src/styles/components/Container";
 
 import {
   NavMenuWrapper,
   NavMenuContainer,
   NavMenuAppointmentButton,
   NavMenuButtonMenu
-} from 'src/styles/components/NavMenu';
+} from "src/styles/components/NavMenu";
 
-import Menu from './Menu';
+import Menu from "./Menu";
 
 function NavMenu() {
   const { setOpenMenu } = useContext(NavMenuContext);
@@ -25,7 +26,7 @@ function NavMenu() {
           </NavMenuAppointmentButton>
           <NavMenuButtonMenu onClick={setOpenMenu}>
             <span>
-              <FiAlignCenter size='100%'/>
+              <FiAlignCenter size="100%"/>
             </span>
           </NavMenuButtonMenu>
         </NavMenuContainer>
