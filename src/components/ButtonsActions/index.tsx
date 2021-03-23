@@ -1,12 +1,9 @@
-import { ReactNode } from "react";
-import Container from "src/styles/components/Container";
-
-import {
-  ButtonsActionsWrapper,
-  ButtonsActionsContainer
-} from "src/styles/components/ButtonsActions";
-import Button from "./Button";
 import { FiCalendar, FiDollarSign, FiUsers } from "react-icons/fi";
+
+import Container from "src/styles/components/Container";
+import Button from "./Button";
+
+import { ButtonsActionsWrapper, ButtonsActionsContainer } from "src/styles/components/ButtonsActions";
 
 function ButtonsActions() {
   return (
