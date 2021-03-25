@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const TabContentWrapper = styled.article`
   width: 100%;
-  padding: var(--space-4) 0;
+  padding-top: var(--space-4);
   display: flex;
   flex-direction: column;
   justify-content: center;
