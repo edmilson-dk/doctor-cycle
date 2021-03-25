@@ -1,6 +1,10 @@
 import { ReactNode } from "react";
 
-import { TabStructureWrapper, TabStructureButtonsContainer, TabStructureContent } from "src/styles/components/Services/TabStructure";
+import { 
+  TabStructureWrapper, 
+  TabStructureButtonsContainer, 
+  TabStructureContent,
+} from "src/styles/components/Services/TabStructure";
 
 type TabStructureProps = {
   tabButtons: Array<ReactNode>;
