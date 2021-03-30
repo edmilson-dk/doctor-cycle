@@ -2,6 +2,7 @@ import About from "src/components/About";
 import AppointmentForm from "src/components/AppointmentForm";
 import Banner from "src/components/Banner";
 import ButtonsActions from "src/components/ButtonsActions";
+import Doctors from "src/components/Doctors";
 import Header from "src/components/Header";
 import NavMenu from "src/components/NavMenu";
 import Services from "src/components/Services";
@@ -22,6 +23,7 @@ export default function Home() {
       <Services />
       <Story />
       <AppointmentForm />
+      <Doctors />
     </HomeWrapper>
   );
 }
