@@ -30,7 +30,7 @@ export const InputWrapper = styled.div`
     padding-left: 0;
     background-color: transparent;
 
-    font-size: var(--text);
+    font-size: var(--title-button);
     font-weight: var(--medium);
     text-align: left;
     color: var(--gray);

@@ -13,7 +13,7 @@ export const TextAreaWrapper = styled.textarea`
   padding: var(--space-1);
    
   resize: vertical;
-  font-size: var(--text);
+  font-size: var(--title-button);
   font-weight: 500;
   text-align: left;
   color: var(--blue-dark);
