@@ -1,3 +1,4 @@
+import { Head } from "next/document";
 import About from "src/components/About";
 import AppointmentForm from "src/components/AppointmentForm";
 import Banner from "src/components/Banner";
@@ -12,18 +13,23 @@ import { HomeWrapper } from "src/styles/pages/home";
 
 export default function Home() {
   return (
-    <HomeWrapper>
-      <Header />
-      <NavMenuContextProvider>
-        <NavMenu />
-      </NavMenuContextProvider>
-      <Banner />
-      <ButtonsActions />
-      <About />
-      <Services />
-      <Story />
-      <AppointmentForm />
-      <Doctors />
-    </HomeWrapper>
+    <>
+      <Head>
+        <title>Doctor Cycle</title>
+      </Head>
+      <HomeWrapper>
+        <Header />
+        <NavMenuContextProvider>
+          <NavMenu />
+        </NavMenuContextProvider>
+        <Banner />
+        <ButtonsActions />
+        <About />
+        <Services />
+        <Story />
+        <AppointmentForm />
+        <Doctors />
+      </HomeWrapper>
+    </>
   );
 }
