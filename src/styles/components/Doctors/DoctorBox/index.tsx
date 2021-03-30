@@ -30,7 +30,7 @@ export const DoctorBoxContent = styled.div`
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 160px;
+  
   background-color: var(--white-second);
   border-radius: var(--border-radius);
   overflow: hidden;
@@ -38,7 +38,7 @@ export const DoctorBoxContent = styled.div`
 
 export const DoctorBoxText = styled.div`
   width: 100%;
-  margin: var(--space-3) 0;
+  margin: var(--space-2) 0;
 
   > h3 {
     font-size: var(--title-button);
@@ -81,5 +81,9 @@ export const DoctorBoxButton = styled.button`
   font-size: var(--title-button);
   font-weight: var(--semi-bold);
   color: var(--white-primary);
-  background-color: var(--blue-second);
+  background-color: var(--green-second);
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
