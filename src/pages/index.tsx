@@ -1,4 +1,4 @@
-import { Head } from "next/document";
+import Head from "next/head";
 import About from "src/components/About";
 import AppointmentForm from "src/components/AppointmentForm";
 import Banner from "src/components/Banner";
@@ -6,6 +6,7 @@ import ButtonsActions from "src/components/ButtonsActions";
 import Doctors from "src/components/Doctors";
 import Header from "src/components/Header";
 import NavMenu from "src/components/NavMenu";
+import News from "src/components/News";
 import Services from "src/components/Services";
 import Story from "src/components/Story";
 import { NavMenuContextProvider } from "src/contexts/NavMenuContext";
@@ -29,6 +30,7 @@ export default function Home() {
         <Story />
         <AppointmentForm />
         <Doctors />
+        <News />
       </HomeWrapper>
     </>
   );
