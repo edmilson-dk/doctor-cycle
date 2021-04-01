@@ -5,6 +5,7 @@ import Banner from "src/components/Banner";
 import ButtonsActions from "src/components/ButtonsActions";
 import Contact from "src/components/Contact";
 import Doctors from "src/components/Doctors";
+import Footer from "src/components/Footer";
 import Header from "src/components/Header";
 import NavMenu from "src/components/NavMenu";
 import News from "src/components/News";
@@ -33,6 +34,7 @@ export default function Home() {
         <Doctors />
         <News />
         <Contact />
+        <Footer />
       </HomeWrapper>
     </>
   );
