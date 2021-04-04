@@ -6,6 +6,14 @@ export const BannerWrapper = styled.section`
   background-image: url('assets/images/doctors-bg/bg-image.svg');
   background-position: center;
   background-size: cover;
+
+
+  @media screen and (min-width: 780px) {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
 export const BannerContainer = styled.div`
