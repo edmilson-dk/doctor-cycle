@@ -19,9 +19,9 @@ function About() {
           <AboutContent>
             <SubTitle>Welcome to Doctor Cicle</SubTitle>
             <Title>A Greate Place to Receive Care</Title>
-            <p>
-              Founded by Wellington Nogueira in 1991, the association has already made more than one and a half million visits to hospitalized children, their companions and health professionals. From the interventions in hospitals, Doutores da Alegria expands channels of reflective dialogues with society.
-            </p>
+              <p className='text'>
+                Founded by Wellington Nogueira in 1991, the association has already made more than one and a half million visits to hospitalized children, their companions and health professionals. From the interventions in hospitals, Doutores da Alegria expands channels of reflective dialogues with society.
+              </p>
             <AboutLearnMore>
               <strong>Learn more</strong>
               <span>
