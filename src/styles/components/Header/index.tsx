@@ -49,6 +49,10 @@ export const HeaderMenuItem = styled.button`
   &:focus > div {
     display: block;
   }
+
+  @media screen and (min-width: 980px) {
+    width: 100%;
+  }
 `;
 
 export const HeaderMenuItemIcon = styled.span`
@@ -85,5 +89,21 @@ export const HeaderMenuItemContent = styled.div`
     color: var(--white-primary);
     font-weight: var(--medium);
     margin-top: 5px;
+  }
+
+  @media screen and (min-width: 980px) {
+    position: static;
+    width: 200px;
+    max-width: 200px;
+    display: block; 
+    background-color: transparent;
+
+    & > strong {
+      color: var(--blue-dark);
+    } 
+
+    & > p {
+      color: var(--blue-dark);
+    }
   }
 `;
