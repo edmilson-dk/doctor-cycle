@@ -45,6 +45,12 @@ const globalStyles = createGlobalStyle`
     --bold: 700;
   }
 
+  .text {
+      @media screen and (min-width: 980px) {
+        max-width: 700px;
+      }
+  }
+
   *,
   *::before,
   *::after {
@@ -57,6 +63,24 @@ const globalStyles = createGlobalStyle`
     font-size: 62.5%;
   }
 
+  @media screen and (min-width: 780px) {
+    html, body {
+      font-size: 68.75%;
+    }
+  }
+
+  @media screen and (min-width: 980px) {
+    html, body {
+      font-size: 75%;
+    }
+  }
+
+  @media screen and (min-width: 1124px) {
+    html, body {
+      font-size: 81.25%;
+    }
+  }
+  
   button {
     cursor: pointer;
     border: none;
