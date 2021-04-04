@@ -61,6 +61,10 @@ export const HeaderMenuItemIcon = styled.span`
   > svg {
     stroke: var(--blue-primary);
   }
+
+   @media screen and (min-width: 980px) {
+     width: 2.5rem;
+   }
 `;
 
 export const HeaderMenuItemContent = styled.div`
@@ -100,9 +104,11 @@ export const HeaderMenuItemContent = styled.div`
 
     & > strong {
       color: var(--blue-dark);
+      font-size: 18px;
     } 
 
     & > p {
+      font-size: 14px;
       color: var(--blue-dark);
     }
   }
