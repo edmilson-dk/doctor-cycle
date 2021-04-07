@@ -33,6 +33,8 @@ export const AppointmentFormText = styled.div`
     color: var(--white-primary);
     text-align: center;
     font-weight: var(--semi-bold);
+    max-width: 620px;
+    margin: 0 auto;
   }
 `;
 
@@ -46,10 +48,16 @@ export const AppointmentFormContent = styled.article`
   border-radius: var(--border-radius);
 
   > div {
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
+  }
+
+
+  @media screen and (min-width: 780px) {
+    max-width: 720px;
   }
 `;
