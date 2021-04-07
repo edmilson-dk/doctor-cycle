@@ -20,5 +20,10 @@ export const ContactContent = styled.article`
   grid-template-columns: auto;
   justify-content: center;
   align-items: center;
-  column-gap: var(--space-3);
+  gap: var(--space-3);
+
+  @media screen and (min-width: 780px) {
+    grid-template-columns: 1fr 1fr;
+    max-width: 620px;
+  }
 `;
