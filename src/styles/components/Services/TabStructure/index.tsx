@@ -10,6 +10,11 @@ export const TabStructureWrapper = styled.article`
   column-gap: var(--space-4);
 
   background-color: transparent;
+
+
+  @media screen and (min-width: 780px) {
+     grid-template-columns: 7rem auto;
+  }
 `;
 
 export const TabStructureButtonsContainer = styled.nav`
@@ -18,10 +23,16 @@ export const TabStructureButtonsContainer = styled.nav`
   overflow: hidden;
   border-radius: var(--border-radius);
 
-  display: grid;
-  grid-template-columns: repeat(5, 1fr) 4rem;
+  display: flex;
   justify-content: center;
   align-items: center;
+
+
+  @media screen and (min-width: 780px) {
+    height: 100%;
+    width: 7rem;
+    flex-direction: column;
+  }
 `;
 
 export const TabStructureContent = styled.article`
