@@ -7,7 +7,7 @@ type TabButtonWrapperProps = {
 export const TabButtonWrapper = styled.button<TabButtonWrapperProps>`
   width: 100%;
   height: 100%;
-  padding: var(--space-2);
+  padding: var(--space-1) var(--space-2);
 
   background-color: var(--blue-second);
 
@@ -26,6 +26,11 @@ export const TabButtonWrapper = styled.button<TabButtonWrapperProps>`
     &:hover,
     &:focus {
       background-color: var(--dark);
+    }
+
+
+    span > svg {
+     stroke-width: 1px;
     }
   `}
 
@@ -46,4 +51,17 @@ export const TabButtonWrapper = styled.button<TabButtonWrapperProps>`
       object-fit: cover;
     }
   }
+
+   @media screen and (min-width: 780px) {
+      & + & {
+        border-top: 1px solid var(--white-primary);
+      }
+
+      ${({ isLastButton }) => isLastButton && css`
+        > span {
+          width: 70%;
+          height: 70%;
+        }
+      `}
+    }
 `;
