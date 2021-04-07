@@ -29,7 +29,6 @@ export const StoryBoxContainer = styled.div`
 export const StoryBoxText = styled.article`
   margin-top: 7rem;
   margin-bottom: var(--space-1);
-  padding: var(--space-1) 0;
 
   width: 100%;
   
@@ -39,6 +38,10 @@ export const StoryBoxText = styled.article`
     font-size: var(--text);
     color: var(--gray);
     text-align: left;
+  }
+
+  @media screen and (min-width: 780px) {
+    margin-top: 6rem;
   }
 `;
 
@@ -76,6 +79,12 @@ export const StoryBoxAspas = styled.div`
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+
+
+  @media screen and (min-width: 780px) {
+    width: 5rem;
+    height: 5rem;
   }
 `;
 
