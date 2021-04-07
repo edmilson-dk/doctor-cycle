@@ -10,6 +10,12 @@ export const NewsBoxWrapper = styled.article`
   & + & {
     margin-top: var(--space-3);
   }
+
+  @media screen and (min-width: 780px) {
+     & + & {
+      margin-top: 0;
+    } 
+  }
 `;
 
 export const NewsBoxContainer = styled.div`
@@ -76,5 +82,9 @@ export const NewsBoxContent = styled.article`
         stroke: var(--gray);
       }
     }
+  }
+
+  @media screen and (min-width: 780px) {
+    > div > span { font-size: 16px; }
   }
 `;
