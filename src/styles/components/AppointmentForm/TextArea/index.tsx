@@ -17,4 +17,9 @@ export const TextAreaWrapper = styled.textarea`
   font-weight: 500;
   text-align: left;
   color: var(--blue-dark);
+
+
+  @media screen and (min-width: 780px) {
+    max-width: 100%;
+  }
 `;
