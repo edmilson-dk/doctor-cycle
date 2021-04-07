@@ -28,7 +28,9 @@ export const TabContentList = styled.ul`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 60%;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 5px;
 
     > span {
       width: 2rem;
