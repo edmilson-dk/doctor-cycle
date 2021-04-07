@@ -11,6 +11,12 @@ export const ContactBoxWrapper = styled.article`
   & + & {
     margin-top: var(--space-3);
   }
+
+  @media screen and (min-width: 780px) {
+     & + & {
+      margin-top: 0;
+    }
+  }
 `;
 
 export const ContactBoxContainer = styled.div`
