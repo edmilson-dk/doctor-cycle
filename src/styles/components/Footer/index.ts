@@ -12,6 +12,11 @@ export const FooterContainer = styled.article`
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+
+  @media screen and (min-width: 780px) {
+    max-width: 720px;
+    margin: 0 auto;
+  }
 `;
 
 export const FooterLogo = styled.div`
@@ -100,6 +105,10 @@ export const FooterNewsletter = styled.div`
     background-color: var(--gray);
     padding: 5px;
     display: flex;
+
+     @media screen and (min-width: 780px) {
+       max-width: 720px;
+     }
 
     > input {
       width: calc(100% - 5rem);
